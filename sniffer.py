@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-CodeAlpha Task 1: Network Sniffer (Version 4 - Enterprise Ready)
+CodeAlpha Task 1: Network Packet Sniffer with Port-Scan Detection (v4.0)
 Author: Hailemariam Zeleke
 GitHub: https://github.com/HailshZ/CodeAlpha_Task1_Network_Sniffer
 
@@ -167,7 +167,7 @@ def main():
         print(f"\n[+] Listening on interface: {interface}")
 
     print("\n" + "=" * 60)
-    print("   CODEALPHA NETWORK SNIFFER v4.0 (Enterprise Ready)")
+    print("   CODEALPHA NETWORK SNIFFER v4.0")
     print("   Author: Hailemariam Zeleke")
     print("=" * 60)
     print(f"\n[+] Logging to: {log_filename}")
