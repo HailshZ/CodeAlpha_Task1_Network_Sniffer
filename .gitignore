@@ -8,6 +8,13 @@ venv/
 env/
 ENV/
 
+# Capture logs (may contain sensitive network data)
+logs/
+*.log
+
+# Temporary files
+*.tmp
+
 # IDE settings
 .vscode/
 .idea/
@@ -15,7 +22,3 @@ ENV/
 # OS metadata
 .DS_Store
 Thumbs.db
-
-# Logs and temporary files
-*.log
-*.tmp
